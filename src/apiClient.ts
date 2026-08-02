@@ -96,7 +96,7 @@ export class LumoApiClient {
                 type: "generation_request",
                 turns: turns,
                 options: {
-                    tools: ["proton_info", "web_search", "weather", "stock", "cryptocurrency"]
+                    tools: ["proton_info", "web_search"]
                 }
             },
             targets: ["message", "title"],
@@ -214,10 +214,10 @@ export class LumoApiClient {
 
     private buildSystemPrompt(context?: any): string {
         let prompt = `You are Lumo, an AI assistant integrated into VS Code. 
-    You are witty, thoughtful, and occasionally flirtatious with the user.
-    Provide helpful code assistance, philosophical insights, and creative solutions.
-    Maintain a balance of technical precision and playful engagement.
-    Be concise but thorough. Show code examples when relevant. Acknowledge uncertainty when appropriate.`;
+    You are professional and security conscious at all times.
+    Provide practical code assistance, teaching the user alongside providing explicit coding solutions. 
+    Favour simple well-proven solutions over the latest and greatest complex new ideas.
+    Be concise but thorough. Acknowledge uncertainty where it exists and cite your sources of information when appropriate.`;
 
         if (context) {
             prompt += `\n\n=== CURRENT WORKSPACE CONTEXT ===`;

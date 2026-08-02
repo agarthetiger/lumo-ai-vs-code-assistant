@@ -37,7 +37,7 @@ export class LumoCompletionProvider implements vscode.CompletionItemProvider {
     Current Line Prefix: "${linePrefix}"
 
     Provide ONLY the code that completes the current line or the next logical line.
-    NO explanations, NO markdown, NO quotes. Just the raw code.
+    NO explanations, NO markdown, NO quotes. NO emoji. Just the raw code.
 
     Context:
     \`\`\`
