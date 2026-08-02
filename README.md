@@ -9,6 +9,8 @@
 
 </div>
 
+Forked from https://github.com/EvAnLyOrG/lumo-assistant
+
 ---
 
 ## ✨ Features
@@ -25,7 +27,7 @@
 
 ### From VSIX File (Recommended for Personal Use)
 
-1. Download the `lumo-assistant-0.6.0.vsix` file.
+1. Download the `lumo-assistant-X.X.X.vsix` file.
 2. Open VS Code.
 3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac).
 4. Type **"Extensions: Install from VSIX..."** and select it.
@@ -36,7 +38,7 @@
 
 bash
 
-`git clone https://github.com/EvAnLyOrG/lumo-assistant.git`<br>
+`git clone https://github.com/agarthetiger/lumo-ai-vs-code-assistant`<br>
 `cd lumo-assistant`<br>
 `npm install`<br>
 `npm run compile`<br>
@@ -131,16 +133,6 @@ Your Session ID is stored locally in VS Code's secure settings and never transmi
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Native OAuth authentication flow
-- [ ] Inline code completion (ghost text)
-- [ ] Multiple conversation threads
-- [ ] Custom system prompts
-- [ ] Streaming text display
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License — see the [license](license.txt) file for details.
@@ -152,6 +144,7 @@ This project is licensed under the MIT License — see the [license](license.txt
 - **Proton** for the Lumo AI platform
 - **VS Code Team** for the excellent extension API
 - The open-source community for inspiration
+- EvAnLy for the upstream open-source code at https://github.com/EvAnLyOrG/lumo-assistant
 
 ---
 
