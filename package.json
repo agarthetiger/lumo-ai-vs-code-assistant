@@ -2,12 +2,12 @@
   "name": "lumo-assistant",
   "displayName": "Lumo AI Assistant",
   "description": "Your secure AI companion, now in your vscode",
-  "version": "0.6.0",
-  "publisher": "evanly",
+  "version": "0.1.0",
+  "publisher": "agarthetiger",
   "icon": "media/lumo-icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EvAnLyOrG/lumo-assistant"
+    "url": "https://github.com/agarthetiger/lumo-ai-vs-code-assistant"
   },
   "engines": {
     "vscode": "^1.85.0"
